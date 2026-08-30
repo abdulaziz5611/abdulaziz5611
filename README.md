@@ -3,6 +3,8 @@
 
 <p align="center">
   <a href="https://www.abdulaziztech.com"><img src="https://img.shields.io/badge/Portfolio-abdulaziztech.com-0A66C2?style=flat-square&logo=google-chrome&logoColor=white" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/abdul-aziz-flutter-developer/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://medium.com/@abdulaziz25512"><img src="https://img.shields.io/badge/Medium-000000?style=flat-square&logo=medium&logoColor=white" alt="Medium"></a>
   <img src="https://img.shields.io/badge/Focus-Flutter%20%2F%20Dart-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Focus">
 </p>
 
@@ -64,6 +66,8 @@ Recent work spans a Quran companion app with prayer times and Qibla direction, a
 
 <p align="center">
   <a href="https://www.abdulaziztech.com"><b>Portfolio</b></a> ·
+  <a href="https://www.linkedin.com/in/abdul-aziz-flutter-developer/"><b>LinkedIn</b></a> ·
+  <a href="https://medium.com/@abdulaziz25512"><b>Medium</b></a> ·
   <a href="https://github.com/abdulaziz5611?tab=repositories"><b>All repositories</b></a>
 </p>
 
