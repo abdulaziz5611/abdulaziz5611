@@ -14,7 +14,7 @@
 
 I build production Flutter applications for Android and iOS from a single codebase. My work leans on **Clean Architecture** — clear separation between domain, data and presentation layers — with **BLoC** for state management and **get_it** for dependency injection, so features stay testable as an app grows.
 
-Recent work spans a Quran companion app with prayer times and Qibla direction, a weather app with offline caching and location services, and a Next.js portfolio backed by Supabase. Most of my client work is in private repositories: school management, hospital management, grocery commerce and inventory systems.
+My larger systems are closed-source, so I have written up the architecture behind each one instead: a multi-tenant school management platform, an eighteen-module hospital operating system, and a white-label grocery commerce platform. The case studies below cover the design decisions, the trade-offs and what I would do differently.
 
 - Currently deepening: offline-first architecture, app performance profiling, and CI/CD for mobile releases
 - Open to: Flutter contract work and full-time mobile roles
@@ -56,6 +56,9 @@ Recent work spans a Quran companion app with prayer times and Qibla direction, a
 
 | Project | What it does | Stack |
 | --- | --- | --- |
+| **[School Management System](https://github.com/abdulaziz5611/school-management-system-case-study)** *(case study)* | Multi-tenant platform, ten modules, six invariants enforced in Postgres rather than the UI | Flutter Web · BLoC · PostgreSQL · RLS |
+| **[Hospital Management System](https://github.com/abdulaziz5611/hospital-management-system-case-study)** *(case study)* | Eighteen-module hospital OS, 14-role RBAC, EN/Urdu RTL, built against mock repositories | Flutter · Riverpod · go_router |
+| **[Grocery Commerce Platform](https://github.com/abdulaziz5611/grocery-platform-case-study)** *(case study)* | White-label multi-tenant platform, four surfaces on one backend, shared contract layer | Flutter · PostgreSQL · RLS |
 | **[Quran App](https://github.com/abdulaziz5611/Quran-App)** | Quran reader with bookmarks, prayer times, Hijri calendar and Qibla direction | Flutter · BLoC · adhan · Clean Architecture |
 | **[Weather App](https://github.com/abdulaziz5611/weather-app)** | Location-based forecasts with charts, saved cities and offline caching | Flutter · BLoC · Dio · Hive · fl_chart |
 | **[My Portfolio](https://github.com/abdulaziz5611/My-Portfolio)** | Personal portfolio site — projects, skills and contact | Next.js · TypeScript · Tailwind · Supabase |
